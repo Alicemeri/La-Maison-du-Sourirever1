@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+    background-image: url(../image/home3.jpeg);
+    background-size: cover; 
+    background-position: top ; 
+    background-attachment: local;
+    position: relative;
+    height: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+/*le text de bievenue*/
+section .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+    margin-left: 50px;
+   height: 100vh;
+
+}
+section .content h1 {
+    font-size: 40px;
+    color: #fff;
+}
+
+section .content p {
+    margin: 20px 0 40px;
+    color: #fff;
+}
+
+.primary-text {
+    color: #e4b95b;
+}
+
+.secondary-text {
+    color: #e4b95b;
+}
+/*bouton de commande*/
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 15px;
+}
+
+.btn-primary {
+    color: #fff;
+    border: 1px solid;
+    transition: all 0.3s ease;
+    font-weight: 600;
+
+}
+
+.btn-primary:hover {
+    transform: scale(1.1);
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+
+/*le tableau 'apropos''specialite''evenement*/
+main {
+    margin: 0px;
+  background-color: white;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 20px;
+    vertical-align: top;
+}
+
+div {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #ff6600;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #666;
+    line-height: 1.6;
+}
+
+
