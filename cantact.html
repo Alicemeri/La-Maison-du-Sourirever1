@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - La Maison du Sourire</title>
+    <link rel="stylesheet" href="style/cantact.css">
+    <link rel="stylesheet" href="style/Header.css">
+    <link rel="stylesheet" href="style/Footer.cs">
+    <link rel="icon" type="image/png" sizes="32*32" href="image/LOGO.png">
+</head>
+
+<body>
+    <header id="head_contact">
+        <div id="navbar_contact">
+            <div class="logo-address_contact">
+                <img src="image/LOGO.png" alt="La Maison du Sourire logo">
+                <p>Rue des Délices, Quartier des Saveurs, Alger</p> <!-- Votre adresse -->
+            </div>
+            <nav class="nav_contact">
+                <ul>
+                    <li class="nav2"><a href="AcceuilF.html" target="_blank">Accueil</a></li>
+                    <li class="nav2"><a href="index.html">Menu</a></li>
+                    <li class="nav2"><a href="cantact.html">Contact</a></li>
+                    <li><a href="login.html"><button class="btnlogin-pop" id="log">login</button></a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+
+    <main>
+        <section id="contact-form">
+            <h2>Contactez-nous</h2>
+            <form action="#" method="POST">
+                <input type="email" name="email" placeholder="Votre adresse email" required > 
+                <textarea name="comment" placeholder="Votre commentaire" required ></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+        
+        <section id="google-map">
+            <div class="map-message">Trouvez-nous ici</div>
+            <div id="map-container">
+                <iframe id="map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3191.1329915167326!2d3.059483415598525!3d36.751680079950084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzXCsDEwJzEyLjAiTiAzwrAxOCcyMi4wIkU!5e0!3m2!1sen!2sus!4v1645015894186!5m2!1sen!2sus"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+
+</main>
+
+<footer>
+        
+        <section id="social-media">
+            <div class="Social-media-message">Suivez-nous sur les réseaux sociaux</div>
+            <div class="social-icons">
+                <a href="https://facebook.com" target="_blank"><img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAn1JREFUSEvFll1oz1EYxz+LRsu83WxygaSIXLmQJuXCXNokFyhyRUSyxM3ukJfalEutlLU0K5m4cSNlYrUScuO1vCTZGmmLOF+dv87/OOd3zv/nYk/tYr//c57P85znOc/z1DFFUjdFXGoFTwPWAouBBdbpd8BrYAj4mRtILngZcBxoA+ZGjH8BrgGngBcpB1LgBuA0sB9QtDnyAzgHdAKTsQNF4EXATWBlDi2g8xDYAigV/0gMvAK4B8wvCa0cE3SdrYEqUyFwsy0URZySj8Bd4CXwHZgObAWWOwefWviYaywE7gO2p4jGuPT2AaOe7kFzUxe8bxeBA0VgefosA6ooVkeezyFT+V2eDRWZnuD7ync/4svArgywrnPA05Nh/bUDitqXMyYdx0LgeuATMDsDrJt57uj129wWHdXbXhoCbwTuZEClIufGra4cnsg899dh96p3Az2ZBhqBr1Z3luNE6rje9XUpueAOQHnIkbLgw0C3Dz4KnI1QXwFLcjwCrgLbIrpinPfBqmZVdUhqAT8GVkXs7AB6fbDG3f3IgaqKLIhcg+SbmVAzIjprgGEfrHan0aZi8UXd6U9urJx0Jo+q+oT9rtwfiUBlQ73/lw/W/znvUXpliusKsLPilN+5dBUaZykpA1ben8TA+n7LTKfNCXKtYN1kVaXHxqKGwLwCeC3gD4Dme9UUiy0CG8xSd9usPTMj8Fyw2qpa8SPfTtHq0wIMAnMC8BywBs4ms/6MhJxPLXsLbSfS+uJKCnzDrDt7zHj8HEtXClx5cuuBvabBtAJNkef01qbnEvAg9SxywL4N9ew3zvahbiVngtvk/0Sccr7U72UiLgXyD/0GGLB0H1VMfAgAAAAASUVORK5CYII="
+                        alt="Facebook"></a>
+                <a href="https://twitter.com" target="_blank"><img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAfpJREFUSEvt1kuoT1EUx/HPjYEkz0J5RUlKDDDxyiOSMhDJQJEyUEhRBmJgQCkJkamJt4wkE4WBxESGTChJmUh5F2fVvv/uPd1z9/73v/lP7q7dGey1f9+91l57rdOjS6OnS1zD4P8W+aEI9ThcxjLMwA+cw2l8S55MSd9PvZ7VwaNxBXvwp8D9aXiK2QPYfsB1LMBYLO9rUwdvrQzv4B62F8DvY1PmgG+wMUXjcZPHB3AhLT7Hzmq+bRBeghcFUXlXRXEqtuBBE3gVWqfCT5zARXyvQQ7ifAH4c3Lg4WChHoWvGFkTjCS5i2vVyV/hI47jZAH4THXoo3W7gbJ6X8rSwTS/IObMAvAxnMqBd2NhlVyLsLZAtMQkNK/mwBvQ7y5KlDM28b6f5cBxt5HFs4YAGBJxHRPwNweO9ZXpHU8aAvhN7BhIp6lkRkU6jL0Y08EBVteeZ0uqCbwf27C4A/BLLG06dBN4Pl5jRAfersOjdsFhvxk3EI2j3XEWRwbblGuLkxFhX4MVhfQnWI9fnYCjnUWSHUqtLceOCO3KQUOkr8cTU8WKZj4vzahe8Q5zI95rlMZLOcPe9XqoI5Ojrs4tFPiNWykqrb+Lkr1NdxyeRoOPP4vpmIPx1X1Hi4v5PhWZ26k6lbD62eSSq23B0g3D4NJIdWzXtVD/A1e4TB/sCCruAAAAAElFTkSuQmCC"
+                        alt="Twitter"></a>
+                <a href="https://instagram.com" target="_blank"><img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAoxJREFUSEvl1kvozmkUwPHPXxaKGixcEkLTUGhk4X6NzcitWFiZmCkLCzaIsXFJuWXBgkgpq5mNy2ws3K8lZhrkWpSQSxILG/I7+v319uv3/N73nVf9lWfzvj2/c873Oec5l6dNB622DuL65sF98SM61YnQB9zH03qRrPK4D7ZhFnrUM1T4/hp/Y1XqECnw3MzDwxm4a5PAovg7LMLx4ocycO9M+A5+aBHarv4KPyF+v6wy8AEsaQH6AJ0xsMbGfvxeBQ6FuJ9u/xP8D0bluv9heP7/LbrjY7vdoscD8KgONDzairsI+bGYj0jGWvB1/FxjqxdepMCjcbUCvBo7EGVTuyIfYn8p7uE9RhRkwvubKfAUnE6Al2MPhmYGFmJiLncOf+YJuRMrE/oRmSsp8EycKFG8kIMiO3djRkEmdOJgcU3/5ocrmhmPS82CF+MQ1mUZuynh0VpswUb8USIzARebBUdYw+voRr8kwEcRjWdBHvqi2GTEtXxexayehpMlhqfjVN6BooWWrSNZVs+rAE/FmRQ4PgaguJZhb5ata/JwloEj46PMNiPCXlyTstw43yw4sjGycnDWCHZhdsFqeLsiS7CXuI1+JeBxuJwCx6nOJkLZXk6D8nCOyeXC2F94iH3F1lhjK3rEtRR4ZF4OCbYI5/ba1pcL1jaQlG40lBspcEymZynNfD8mV5RN1Gy0zKjPOVkOxGOhakX4n6TAsf84cUd17FZ+foOeVUMitNdnT5wNrVBKdGPU/la7XzaPYzTeyt9YX4Mf3g5p5CEQsP7ZXI0SaZ+trRwgHhUHiwaqHntd8mn0awOvy6LdGPjHENOqtDwbeVdHpg9r0uW4qudVOo2Am2Q2Jv79gT8BaMhxHzndaXwAAAAASUVORK5CYII="
+                        alt="Instagram"></a>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Informations de contact</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAoBJREFUSEvl1k3IT3kUB/DP02SIjEgWNkiUWJC31WAii9kYLIjFzAijLLyWms2MlZJppogwYTNEXrKwUTLYmCSUl2RBXhs1MhuZobhH56nrP8/93/s8pafMqX/3/v739zvf8/I95/w69JJ09BKungKPxDdp9IHi/V53Hegp8CycTbAv8PtHCfwpZmM+5mFYevkUJ3EcZ/CqifdNQz0JxzCqRuldLCwMu1IH3gR4NX5Gn1T2HFdxI9cTMLHYMyjX/2ItdrUDrwMO0B2p4DHW4GiFwsXYXuwfmt/j7M4q8HbA43EZfXETc/CkJoSRishzPF9iSiky7x2tAu6f4RyDB5iKP/PkksKA7zA9139gNw7mOmr8UnoeBk9OIxoBf41oDCFfJWvjfRs2VHj9Ezbmt5VpTCzD0EOtZ6o83odvM7TDS57+VhPqpel5pOcvDEgDVrUDjhDFL2R/vu9FWB9yDjNqgM8XHW1m7jmFL3GnpCNa67v2Wvb4R/zQongLvs//gizhSTv5B/1ywy9ZBeX9m4tF4NQCl/PWXeA4u77Fyi6By6Heg2D0ESzqYaij0y3AbXTmuMtQl43rZO/fGFyk4E2ysym5PsEzfIat2NSU1eWx18nUONu0nJYjiBkShLzQFDhIFyz+HI8wrWBmtMyQugYyGhezgcScjnn9H2nXMqPt3Uomx3MuHtaweixOF+U4Ai8wDve7Cxz7gxSdUyb69LpC2eEKB5ZlPofk9xX4tcrQuukU57oaizFvr+eojGESY3FggrzO+q2cTK113C6KTS8CUS7R26/VpKRbt8yqq09Mrbj6nPgQV59WB/4ft8yy1712oa/jTu33JuVUq6QnG94CC0iEHwzVWo8AAAAASUVORK5CYII="
+                        alt="Adresse">
+                    <p>Rue des Délices, Quartier des Saveurs, 16000 Alger, Algérie</p>
+                </div>
+                <div class="contact-item">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAd5JREFUSEvt1svLTlEUx/HPi0SEDCRl6DowQFIkuQ1k6JaMMZFEiqQkpUSSCWZMXDLxB4gYKCSZECMjGbilpNzO0lGn7ezznOd9jt4Be7jPWr/v3muvyxkyQmtohLj+g6uRP4S9OIejXT9JXajH4RI2VWBHcKxLeAqegFtYUgPZhfNdwVPwMtzLiP/AFlzvAp6CV+BOg/BXrMXtQeEpeAGe9BD9jIV4Ngg8BU/BuxaCB3CyhV3WpC6rX2Fmg+jjItQr8bFr8FVszog+LN/4/SDQ8K278XZcrhF+gFX4NCg0B56MNxibAGbjRRfQHDj2o1HsSCD7cPpvg+fjKUZVQB8wF68z8GnYhrt41OuATWPxTFFaexKBOExk9Ntkf2rZ8ebhGyJPrjTBm8AT8RwzEoHY21CIvyz3o79HJ1uc2O0sfC/k4L1+BBaVoRufCHzHRZwo82FdBnCwtPnjcy9wOMTtbmZKr9dTxveY57tTwzbg8Nla1vaYNqQam1NF/e+v7rcFh0+E8xqizvtd0XQmIUbrr9UPOOyn42zyd9LmEIdxfLg3rvotL6fT0hbUG9g43DfO6c8q6ncN1hfZvxpp9t8v6/5L1+Cq3mjMQXSw3yumWe1Q6feNW0S2ncm/B/4JJctDHz3WUGoAAAAASUVORK5CYII="
+                        alt="Téléphone">
+                    <p>+213 26 47 21 41</p>
+                </div>
+                <div class="contact-item">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAa9JREFUSEvtlj8oRXEUxz9PSmKxWFgU2chEmWws2CySTRZKkpB/IUmKRTbJYsNAJpNiEpsoC4vFQlLCPa9z6/Trve6fd3nKe3V7t3PP7/s559zfueeXIk+/VJ64FMC/Vnm31JPAIFCVcASPwCaw6OtacAdwlDDQlWsHTsRowZLtgnq+AmUJBWG1hLHkgmc8w6zCaoBdoDVH+BnQC9yrzpzPsBlbsNjlGtYISyMG8AZMAOvAl14ikREs2QrcrUStZt8cEn6hWd4Zf4GHAu8DA8CTLigCRoF5oCRLAO/ANLDq/X+qTyWwBXSHBYvfMzACbBtQPbAHNDrwK6AHuDH2fmDNK3eFsQWW2uqeAn3AgxqLgXHNTkxShWXgQ59XAztAW4bKRALL+hdPeArYMBulQYWvzb4Y0pYsz/I6IoN9nXPN/tYRrtMsWwI2YGyw6MomEoEVhYxpN2TbdDaWnMC+0KXeNIVss1DtFEErkmsiGUciRunjOMJBa/5WxnYsBkUe97l8C9KHATudOoGDuIoh13UBhy5YBoF80OUk8hNHn2MdPOkBUjjehnxVubv9v1J/AzG/WB9938PnAAAAAElFTkSuQmCC"
+                        alt="Email">
+                    <p>info@lamaisondusourire.com</p>
+                </div>
+            </div>
+        </section>
+        
+        <div class="copyright">
+            <p>&copy; 2024 Restaurant La Maison du Sourire. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
